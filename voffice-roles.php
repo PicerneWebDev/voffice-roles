@@ -138,6 +138,7 @@ if (!class_exists('Voffice_Roles')) :
          */
         private function includes() {
             require_once VOFFICE_ROLES_PLUGIN_DIR . 'includes/install.php';
+            require_once VOFFICE_ROLES_PLUGIN_DIR . 'includes/functions.php';
             require_once VOFFICE_ROLES_PLUGIN_DIR . 'includes/class-voffice-user-roles.php';
 
         }
